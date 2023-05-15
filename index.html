@@ -4,19 +4,32 @@
     <title>Wir sind umgezogen!</title>
     <meta http-equiv="refresh" content="10000;URL='https://ikgp.de/'">
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400&display=swap');
+      html, body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
       body {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
+        height: 100%;
       }
       
       img {
-        height: max(50vw, 10rem);
+        height: min(50vw, 10rem);
+      }
+      
+      a {
+        font-family: 'EB Garamond';
+        font-weight: 400;
       }
     </style>
-  </head>    
+  </head>
   <body>
     <img src="https://raw.githubusercontent.com/ikgp/kant-loader/09e46f9c1c662f39a0ad887bb4d8c1c5438b8acb/kant-logo.svg" alt="Logo">
-    <p>Wir sind jetzt auf <a href="https://ikgp.de/">ikgp.de</a>.</p> 
+    <h1>Wir sind jetzt auf <a href="https://ikgp.de/">ikgp.de</a>.</h1> 
   </body>
 </html>
